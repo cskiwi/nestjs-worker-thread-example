@@ -1,6 +1,6 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { Worker, isMainThread } from 'worker_threads';
-import workerThreadFilePath from './worker-threads/config';
+import { workerThreadFilePath } from '@app/worker';
 
 @Injectable()
 export class AppService {

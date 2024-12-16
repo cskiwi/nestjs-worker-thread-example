@@ -1,5 +1,5 @@
 import { Controller, Get, Logger } from '@nestjs/common';
-import { hello } from '@library/something';
+import { hello } from '@app/other';
 import { AppService } from './app.service';
 
 @Controller()

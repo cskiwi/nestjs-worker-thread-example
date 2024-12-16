@@ -18,9 +18,8 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
-      "@library/*": [
-        "libs/*"
-      ]
+      "@app/other": ["libs/other"],
+      "@app/worker": ["libs/worker"]
     }
   }
 }
